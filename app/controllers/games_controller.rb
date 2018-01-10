@@ -13,7 +13,7 @@ class GamesController < ApplicationController
     render json: @show
   end
   
-  def updated
+  def update
     render json: @show
   end
   private
